@@ -1,0 +1,24 @@
+:root {
+	--main-bg-color:coral;
+	--font-size-normal: 13px;
+	--font-size-large: 25px;
+	--font-size: var(--font-size-normal);
+}
+  
+#div1 {
+	min-height:20vh;
+	background-color: var(--main-bg-color); 
+}
+  
+#div2 {
+	min-height:20vh;
+	background-color: var(--main-bg-color);
+}
+
+.testTekst{
+	font-size: var(--font-size);
+}
+
+.h1Test{
+	font-size: var(--font-size);
+}
