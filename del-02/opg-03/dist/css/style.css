@@ -1,0 +1,41 @@
+:root {
+	--chosen-color:white;
+}
+
+.myButton{
+	all:unset;
+}
+
+#button-1{
+	background-color:red;
+}
+
+#button-2{
+	background-color:green;
+}
+
+#button-3{
+	background-color:purple;
+}
+#button-4{
+	background-color:orange;
+}
+
+
+.color-pallet1{
+	margin:20px;
+	height:300px;
+	width:200px;
+	background-color: var(--chosen-color);
+	border: 1px solid black;
+}
+
+.color-pallet2{
+	margin:20px;
+	height:200px;
+	width:120px;
+	background-color: var(--chosen-color);
+	border: 1px solid black;
+}
+  
+

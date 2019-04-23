@@ -15,10 +15,15 @@
 	background-color: var(--main-bg-color);
 }
 
-.testTekst{
+
+body{
+	font-size: var(--font-size);
+}
+
+/* .testTekst{
 	font-size: var(--font-size);
 }
 
 .h1Test{
 	font-size: var(--font-size);
-}
+} */
