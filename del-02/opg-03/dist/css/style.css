@@ -2,10 +2,6 @@
 	--chosen-color:white;
 }
 
-.myButton{
-	all:unset;
-}
-
 #button-1{
 	background-color:red;
 }
