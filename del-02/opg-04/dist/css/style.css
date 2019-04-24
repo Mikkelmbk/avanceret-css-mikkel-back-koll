@@ -1,0 +1,33 @@
+:root{
+	--color:red;
+}
+
+.sliderContainer{
+	width:100%;
+}
+
+.slider1{
+	width:100%;
+	margin: 20px 0;
+}
+
+.slider2{
+	width:100%;
+	margin: 20px 0;
+}
+
+.slider3{
+	width:100%;
+	margin: 20px 0;
+}
+
+.color-pallet{
+	margin:20px;
+	height:300px;
+	width:200px;
+	border: 1px solid black;
+	background-color: var(--color);
+}
+
+  
+
