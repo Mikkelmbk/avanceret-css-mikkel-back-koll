@@ -1,0 +1,60 @@
+:root{
+	--color:red;
+	--positioning:0px;
+	--pallet1-position:0px;
+	--pallet2-position:300px;
+	--pallet3-position:300px;
+	--pallet4-position:0px;
+}
+
+.sliderContainer{
+	width:100%;
+}
+
+.slider{
+	width:100%;
+	margin: 20px 0;
+}
+
+.color-pallet1{
+	position:fixed;
+	left: calc(var(--pallet1-position)* var(--positioning));
+	margin:40px;
+	height:40px;
+	width:40px;
+	border: 1px solid black;
+	background-color: var(--color);
+}
+
+/* .color-pallet2{
+	position:fixed;
+	left: var(--positioning);
+	top: calc(var(--positioning)* 3);
+	margin:40px;
+	height:40px;
+	width:40px;
+	border: 1px solid black;
+	background-color: var(--color);
+}
+
+.color-pallet3{
+	position:fixed;
+	left: var(--positioning);
+	margin:40px;
+	height:40px;
+	width:40px;
+	border: 1px solid black;
+	background-color: var(--color);
+}
+
+.color-pallet4{
+	position:fixed;
+	margin:40px;
+	height:40px;
+	width:40px;
+	border: 1px solid black;
+	background-color: var(--color);
+} */
+
+  
+
