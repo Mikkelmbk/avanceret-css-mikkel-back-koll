@@ -3,14 +3,31 @@ document.addEventListener('DOMContentLoaded', () => {
 	let rootElement = document.documentElement;
 
 	let sliderElement = document.querySelector('.slider');
+	let sliderDistanceElement = document.querySelector('.slider-distance');
+	let sliderOpacityElement = document.querySelector('.slider-opacity');
 
-	console.log(sliderElement.value);
-
+	updateSliders();
+	
 	sliderElement.addEventListener('input',()=>{
-		let sliderOutput = sliderElement.value;
-		document.documentElement.style.setProperty('--positioning',`${sliderOutput}px`)
+		updateSliders();
+	})
+
+	sliderDistanceElement.addEventListener('input',()=>{
+		updateSliders();
+	})
+	sliderOpacityElement.addEventListener('input',()=>{
+		updateSliders();
 	})
 	
+
+
+
+
+	function updateSliders(){
+		rootElement.style.setProperty('--slider',`${sliderElement.value}`)
+		rootElement.style.setProperty('--distance',`${sliderDistanceElement.value}px`);
+		rootElement.style.setProperty('--opacity',`${sliderOpacityElement.value}`);
+	}
 
 
 

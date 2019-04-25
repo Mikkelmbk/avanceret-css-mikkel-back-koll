@@ -24,10 +24,12 @@ body{
 .headlineContainer{
 	position:relative;
 	background-color:blue;
+	opacity:0.5;
 }
 
 .headlineContainer__h1{
 	margin:0;
+	color:purple;
 }
 
 .headlineContainer__icon{
