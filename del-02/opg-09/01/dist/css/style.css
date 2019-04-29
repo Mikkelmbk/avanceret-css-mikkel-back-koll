@@ -3,19 +3,73 @@ body{
 	margin:0;
 }
 
+.btn{
+	margin:20px;
+}
+
+
+
 .imageContainer1{
+	position:absolute;
 	min-height:50vh;
 	background: url('../img/pls-stop.jpg');
 	background-attachment: fixed;
 	background-repeat:no-repeat;
 	background-size:cover;
+	margin:40px;
+	border: 1px solid black;
+	transition: all 0.5s
 }
 
 
 .imageContainer2{
+	position:absolute;
+	opacity:0;
 	min-height:50vh;
 	background: url('../img/woodland3.jpg');
 	background-attachment: fixed;
 	background-repeat:no-repeat;
 	background-size:cover;
+	margin: 40px;
+	border: 1px solid black;
+	transition: all 0.5s
+}
+
+.imageContainer3{
+	position:absolute;
+	opacity:0;
+	min-height:50vh;
+	background: url('../img/mountain.jpeg');
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin: 40px;
+	border: 1px solid black;
+	transition: all 0.5s
+}
+
+.imageContainer4{
+	position:absolute;
+	opacity:0;
+	min-height:50vh;
+	background: url('../img/mountain2.jpeg');
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin: 40px;
+	border: 1px solid black;
+	transition: all 0.5s
+}
+
+.imageContainer5{
+	position:absolute;
+	opacity:0;
+	min-height:50vh;
+	background: url('../img/desert.JPG');
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin: 40px;
+	border: 1px solid black;
+	transition: all 0.5s
 }
