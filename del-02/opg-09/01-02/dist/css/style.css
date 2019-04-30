@@ -1,0 +1,55 @@
+body{
+	min-height:200vh;
+	margin:0;
+}
+
+.btn{
+	margin:20px;
+}
+
+
+
+.imageContainer1{
+	background: url('../img/pls-stop.jpg');
+}
+
+.imageContainer2{
+	background: url('../img/woodland3.jpg');
+}
+
+.text2__a{
+	font-size:150px;
+}
+
+.imageContainer3{
+	background: url('../img/mountain.jpeg');	
+}
+
+.imageContainer4{
+	background: url('../img/mountain2.jpeg');
+}
+
+.imageContainer5{
+	background: url('../img/desert.JPG');	
+}
+
+
+.content{
+	position:absolute;
+	opacity:0;
+	min-height:50vh;
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin: 40px;
+	border: 1px solid black;
+	transition: all 0.5s;
+	overflow:hidden;
+}
+
+
+.footer{
+	background-color:black;
+	min-height:20vh;
+}
+

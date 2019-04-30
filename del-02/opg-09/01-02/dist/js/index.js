@@ -17,10 +17,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	window.addEventListener('resize', () => {
 		updateContent(buttonIndex);
+		calculateFooterDistance(contentElements[buttonIndex]);
 	})
 
 
+	calculateFooterDistance(contentElements[buttonIndex]);
 
+	contentElements.forEach((contentElement) => {
+
+		contentElement.addEventListener('transitionend', () => {
+
+			console.log("Event");
+
+			if (contentElements[buttonIndex] == contentElement) {
+				calculateFooterDistance(contentElement);
+
+			}
+
+		})
+
+	})
 
 	function updateContent(btnIndex) {
 		contentElements.forEach((contentElement, index) => {
@@ -29,30 +45,12 @@ document.addEventListener('DOMContentLoaded', () => {
 			contentElement.style.height = "0px";
 			contentElement.style.width = "0px";
 
-
 			if (btnIndex == index) {
 				contentElement.style.opacity = 1;
 				contentElement.style.pointerEvents = "auto";
 				contentElement.style.width = "auto";
 				contentElement.style.height = "auto";
 
-				calculateFooterDistance(contentElement);
-
-				contentElement.addEventListener('transitionend', () => { // fjernede eventlistener fra forEachen i version 01-02, det er ikke en gid ide at tilføje eventlisteners i en forEach fordi den bliver ved og ved med at tilføje selvom elementet allerede har den Event
-
-					console.log("transition færdig " + contentElement.id);
-					// console.log()
-					if (contentElements[buttonIndex] == contentElement) {
-						calculateFooterDistance(contentElement);
-						console.log("samme");
-					}
-					else {
-						console.log("ikke samme");
-					}
-
-
-
-				})
 			}
 		})
 
