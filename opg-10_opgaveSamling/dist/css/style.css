@@ -185,6 +185,7 @@
 .Opg5__color-pallet4{
 	position:fixed;
 	top: calc(var(--Opg5-distance) - var(--Opg5-distance) * var(--Opg5-slider));
+	left:0;
 	margin:40px;
 	height:40px;
 	width:40px;

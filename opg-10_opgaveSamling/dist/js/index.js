@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	var Opg8__parallax = document.querySelector(".Opg8__imageContainer1");
 
-	let Opg8__scrollSpeed = 12;
+	let Opg8__scrollSpeed = 2;
 
 	updateParallax();
 
