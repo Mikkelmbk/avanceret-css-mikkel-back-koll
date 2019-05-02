@@ -1,0 +1,202 @@
+:root {
+	--Opg1-main-bg-color:coral;
+}
+  
+#Opg1__div1 {
+	min-height:20vh;
+	background-color: var(--Opg1-main-bg-color); 
+}
+  
+#Opg1__div2 {
+	min-height:20vh;
+	background-color: var(--Opg1-main-bg-color);
+}
+
+.opgave1__container{
+	display:none;
+}
+/*============================================= Opgave 1 slutter her ===================================================*/
+
+:root {
+	--Opg2-main-bg-color:coral;
+	--Opg2-font-size-normal: 13px;
+	--Opg2-font-size-large: 25px;
+	--Opg2-font-size: var(--Opg2-font-size-normal);
+}
+  
+#Opg2__div1 {
+	min-height:20vh;
+	background-color: var(--Opg2-main-bg-color); 
+}
+  
+#Opg2__div2 {
+	min-height:20vh;
+	background-color: var(--Opg2-main-bg-color);
+}
+
+.Opg2__h1Test{
+	font-size: var(--Opg2-font-size);
+}
+
+.Opg2__testTekst{
+	font-size: var(--Opg2-font-size);
+
+}
+
+.opgave2__container{
+	display:none;
+}
+
+/*============================================= Opgave 2 slutter her ===================================================*/
+
+
+:root {
+	--Opg3-chosen-color:white;
+}
+
+#Opg3__button-1{
+	background-color:red;
+}
+
+#Opg3__button-2{
+	background-color:green;
+}
+
+#Opg3__button-3{
+	background-color:purple;
+}
+#Opg3__button-4{
+	background-color:orange;
+}
+
+
+.Opg3__color-pallet1{
+	margin:20px;
+	height:300px;
+	width:200px;
+	background-color: var(--Opg3-chosen-color);
+	border: 1px solid black;
+}
+
+.Opg3__color-pallet2{
+	margin:20px;
+	height:200px;
+	width:120px;
+	background-color: var(--Opg3-chosen-color);
+	border: 1px solid black;
+}
+
+.opgave3__container{
+	display:none;
+}
+
+
+/*============================================= Opgave 3 slutter her ===================================================*/
+
+
+:root{
+	--Opg4-color:red;
+}
+
+.Opg4__sliderContainer{
+	width:100%;
+}
+
+.Opg4__slider{
+	width:100%;
+	margin: 20px 0;
+}
+
+.Opg4__color-pallet{
+	margin:20px;
+	height:300px;
+	width:200px;
+	border: 1px solid black;
+	background-color: var(--Opg4-color);
+}
+
+
+.opgave4__container{
+	display:none;
+}
+/*============================================= Opgave 4 slutter her ===================================================*/
+
+
+
+
+
+:root{
+	--Opg5-color:red;
+	--Opg5-slider:0.0;
+	--Opg5-distance:0;
+	--Opg5-positioning: 200px;
+	--Opg5-opacity:1.0;
+}
+
+body{
+	margin:0;
+}
+
+#sliderContainer{
+	margin-top:500px;
+	width:100%;
+}
+
+.slider,.slider-distance,.slider-opacity{
+	width:100%;
+	margin: 20px 0;
+}
+
+.color-pallet1{
+	position:fixed;
+	top:0;
+	left: calc(var(--Opg5-distance) * var(--Opg5-slider));
+	margin:40px;
+	height:40px;
+	width:40px;
+	border: 1px solid black;
+	background-color: var(--Opg5-color);
+	opacity: var(--Opg5-opacity);
+}
+
+ .color-pallet2{
+	position:fixed;
+	top:calc(var(--Opg5-distance) * var(--Opg5-slider));
+	left:var(--Opg5-distance);
+	margin:40px;
+	height:40px;
+	width:40px;
+	border: 1px solid black;
+	background-color: var(--Opg5-color);
+	opacity: var(--Opg5-opacity);
+}
+
+.color-pallet3{
+	position:fixed;
+	top:var(--Opg5-distance);
+	left: calc(var(--Opg5-distance) - var(--Opg5-distance) * var(--Opg5-slider));
+	margin:40px;
+	height:40px;
+	width:40px;
+	border: 1px solid black;
+	background-color: var(--Opg5-color);
+	opacity: var(--Opg5-opacity);
+}
+
+.color-pallet4{
+	position:fixed;
+	top: calc(var(--Opg5-distance) - var(--Opg5-distance) * var(--Opg5-slider));
+	margin:40px;
+	height:40px;
+	width:40px;
+	border: 1px solid black;
+	background-color: var(--Opg5-color);
+	opacity: var(--Opg5-opacity);
+}
+
+  
+
+
+  
+
+

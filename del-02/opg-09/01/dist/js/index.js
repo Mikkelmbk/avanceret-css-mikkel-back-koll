@@ -64,5 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		footerElement.style.marginTop = topDistance + elementHeight + "px";
 	}
 
+	// Bedst fungerende version af opgave 9 ligger i 01-02 mappen.
+
 
 }) // DOMContentLoaded slutter
