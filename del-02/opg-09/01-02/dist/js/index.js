@@ -12,6 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
 		btnElement.addEventListener('click', () => {
 			buttonIndex = index;
 			updateContent(buttonIndex);
+			calculateFooterDistance(contentElements[buttonIndex]);
+			
+
 		})
 	})
 
@@ -27,11 +30,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 		contentElement.addEventListener('transitionend', () => {
 
-			console.log("Event");
-
 			if (contentElements[buttonIndex] == contentElement) {
 				calculateFooterDistance(contentElement);
-
+			
 			}
 
 		})
