@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	var parallax = document.querySelector(".imageContainer1");
 
-	let scrollSpeed = 0.4;
+	let scrollSpeed = 12;
 
 	updateParallax();
 
@@ -29,8 +29,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 		if (scrolledHeight > parallax.offsetTop && scrolledHeight <= limit) {
-			parallax.style.backgroundPositionY = (scrolledHeight - parallax.offsetTop) * scrollSpeed + "px"; // Dividing by a lower number will make the element scroll by faster, whereas dividing by a larger number will make the element scroll by slower
-
+			parallax.style.backgroundPositionY = (scrolledHeight - parallax.offsetTop) / scrollSpeed + "px"; // Dividing by a lower number will make the element scroll by faster, whereas dividing by a larger number will make the element scroll by slower
+			console.log((scrolledHeight - parallax.offsetTop) / scrollSpeed + "px");
 		} else {
 			parallax.style.backgroundPositionY = "0";
 		}
