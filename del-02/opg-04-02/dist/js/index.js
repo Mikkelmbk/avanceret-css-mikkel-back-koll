@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 	//  =========================================================================================================================
 	// References
-	let groupElement;
+	let groupElement; // groupElement bliver overskrevet for hver div der eksistere, sådan at man i hver objects property kan querySelecte på netop groupElement.
 	let rootElement = document.documentElement;
 	
 
